@@ -1,13 +1,3 @@
-html {
-    overflow: hidden;
-    height: 100%;
-}
-
-body {
-    overflow: auto;
-    height: 100%;
-}
-
 .event-background-image{
     position: fixed;
     background-image: url("../../images/labirynth.png");
