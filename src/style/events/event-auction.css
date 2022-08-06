@@ -41,7 +41,7 @@
     flex-wrap: wrap;
 }
 .NFT-container{
-    margin: 0 auto;
+    margin-left: 10vw;
     margin-top: 8vw;
     margin-bottom: 20vw;
     width: 80vw;
@@ -59,8 +59,8 @@
     height: 80vw;
     margin: 0 auto;
     border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .NFT-title{
     font-size: 7vw;
