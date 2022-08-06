@@ -13,7 +13,7 @@ import LoginPage from "./pages/LoginPage";
 import Events from "./pages/events/Events";
 import MarketplaceHome from "./pages/events/MarketplaceHome";
 import Profile from "./pages/events/Profile"
-import Event from "./pages/events/Event";
+import EventAuction from "./pages/events/EventAuction";
 
  const App = () => {
     return(
@@ -31,7 +31,7 @@ import Event from "./pages/events/Event";
                         <Route path="/events" exact component={Events} />
                         <Route path="/marketplace" exact component={MarketplaceHome} />
                         <Route path="/profile" exact component={Profile} />
-                        <Route path="/events/:id" exact component={Event} />
+                        <Route path="/events/:id" exact component={EventAuction} />
                         <Route path="*" component={ErrorPage} />
                     </Switch>
             </Router>
